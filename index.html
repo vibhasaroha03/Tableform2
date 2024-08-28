@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Form-table</title>
+      </head>
+      <body>
+        <center>
+          <table height="500px" border="1px">
+            <form name="tableform">
+              <tr>
+                <th bgcolor="navyblue"><h3>Name</h3></th>
+                <th bgcolor="navyblue"><h3>Value</h3></th>
+              </tr>
+              <tr>
+                <td width="40%">Name</td>
+                <td>
+                  <input
+                    type="text "
+                    name="name"
+                    placeholder="Enter name"
+                    width="40%"
+                  />
+                </td>
+              </tr>
+
+              <tr>
+                <td>Sex</td>
+                <td>
+                  <input type="radio" name="s" />Male
+                  <br />
+                  <input type="radio" name="s" checked />Female
+                </td>
+              </tr>
+              <tr>
+                <td>Eye Color</td>
+                <td>
+                  <select name="selectcolor">
+                    <option disabled selected>Green</option>
+                    <option value="black">Black</option>
+                    <option value="brown">Brown</option>
+                    <option value="red">Red</option>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <td>Check all that apply</td>
+                <td>
+                  <input type="radio" name="r" />Over 6 feet tall
+                  <br />
+                  <input type="radio" name="r" />Over 200 pounds
+                </td>
+              </tr>
+
+              <tr>
+                <td colspan="2">Describe your athletic ability:</td>
+                <br />
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <textarea
+                    name="work"
+                    rows="5"
+                    cols="50"
+                    width="100%"
+                  ></textarea>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <center>
+                    <input type="submit" value="Enter information" />
+                  </center>
+                </td>
+              </tr>
+            </form>
+          </table>
+        </center>
+      </body>
+    </html>
+  </body>
+</html>
